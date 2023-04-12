@@ -4,7 +4,7 @@
     <Header>
       <FlightplanType>VFR</FlightplanType>
       <CruisingAlt>10500</CruisingAlt>
-      <CreationDate>2023-04-12T10:00:42+03:00</CreationDate>
+      <CreationDate>2023-04-12T10:04:06+03:00</CreationDate>
       <FileVersion>1.1</FileVersion>
       <ProgramName>Little Navmap</ProgramName>
       <ProgramVersion>2.8.9</ProgramVersion>
@@ -16,6 +16,20 @@
       <Type>C172</Type>
       <Name>Example Performance Profile</Name>
     </AircraftPerformance>
+    <Departure>
+      <Pos Lon="7.340871" Lat="46.220825" Alt="1578.00"/>
+      <Start>PARKING 85</Start>
+      <Type>Parking</Type>
+      <Heading>160.932</Heading>
+    </Departure>
+    <Procedures>
+      <SID>
+        <Name>LSGS25</Name>
+        <Runway>25</Runway>
+        <Type>CUSTOMDEPART</Type>
+        <CustomDistance>3.00</CustomDistance>
+      </SID>
+    </Procedures>
     <Waypoints>
       <Waypoint>
         <Name>Sion</Name>
@@ -27,7 +41,7 @@
         <Ident>R235J</Ident>
         <Region>LS</Region>
         <Type>WAYPOINT</Type>
-        <Pos Lon="7.092494" Lat="46.119751" Alt="5467.12"/>
+        <Pos Lon="7.092494" Lat="46.119751" Alt="5688.60"/>
       </Waypoint>
       <Waypoint>
         <Ident>SOSAL</Ident>
@@ -36,24 +50,10 @@
         <Pos Lon="6.884445" Lat="46.558056" Alt="10500.00"/>
       </Waypoint>
       <Waypoint>
-        <Ident>BALIR</Ident>
-        <Region>LS</Region>
+        <Ident>SL33</Ident>
+        <Region>LF</Region>
         <Type>WAYPOINT</Type>
-        <Pos Lon="7.281528" Lat="47.308304" Alt="7427.96"/>
-      </Waypoint>
-      <Waypoint>
-        <Ident>LEPLA</Ident>
-        <Region>LS</Region>
-        <Airway>W102</Airway>
-        <Type>WAYPOINT</Type>
-        <Pos Lon="7.366111" Lat="47.343361" Alt="6266.62"/>
-      </Waypoint>
-      <Waypoint>
-        <Ident>LASUN</Ident>
-        <Region>LS</Region>
-        <Airway>W102</Airway>
-        <Type>WAYPOINT</Type>
-        <Pos Lon="7.537500" Lat="47.414165" Alt="3917.23"/>
+        <Pos Lon="7.600778" Lat="47.488895" Alt="2850.73"/>
       </Waypoint>
       <Waypoint>
         <Name>Basel Mulhouse Freiburg</Name>
