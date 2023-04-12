@@ -58,7 +58,7 @@ RunwayDesignator=NONE
 
 [Arrival]
 ICAO=LFSB
-RunwayNumber=15
+RunwayNumber=33
 RunwayDesignator=NONE
 
 [Loading]
@@ -95,18 +95,18 @@ Waypoint.2=, , , RW25, U, N46∞ 13.32', E7∞ 20.37', +002800.00, , , , , , NONE, 0
 Waypoint.3=, , , RW253, U, N46∞ 12.43', E7∞ 16.22', +003400.00, , , , , , NONE, 0, 0, -1, 0, 0,  
 Waypoint.4=LS, R235J, LSGS, R235J, I, N46∞ 7.19', E7∞ 5.55', +005200.00, , , , , , NONE, 0, 0, -1, 0, 0,  
 Waypoint.5=LS, SOSAL, , SOSAL, I, N46∞ 33.48', E6∞ 53.07', +010500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.6=, , , TIMECRUIS, U, N46∞ 37.33', E6∞ 55.98', +010500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.7=, , , TIMEDSCNT, U, N46∞ 52.77', E7∞ 7.73', +010500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.8=LF, SL33, LFSB, SL33, I, N47∞ 29.33', E7∞ 36.05', +004150.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.9=, , , TIMEAPPROACH, U, N47∞ 39.76', E7∞ 28.71', +001850.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.10=, LFSB, , –?–∞–∑–µ–ª—å-–ú—é–ª—É–∑-–§—Ä–∞–?–±—É—Ä–≥, A, N47∞ 35.40', E7∞ 31.75', +000900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.6=, , , TIMECRUIS, U, N46∞ 37.32', E6∞ 55.96', +010500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.7=, , , TIMEDSCNT, U, N46∞ 52.77', E7∞ 7.72', +010500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.8=LF, SL33, LFSB, SL33, I, N47∞ 29.33', E7∞ 36.05', +002200.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.9=, , , TIMEAPPROACH, U, N47∞ 33.01', E7∞ 33.41', +001400.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.10=, LFSB, , –?–∞–∑–µ–ª—å-–ú—é–ª—É–∑-–§—Ä–∞–?–±—É—Ä–≥, A, N47∞ 35.40', E7∞ 31.75', +000877.25, , , , , , NONE, 0, 0, -1, 0, 0,  
 NumberofWaypoints=11
 ClearanceFlags=882
 CtCur=CLEARANCE_NONE
 WaypointNext=1
 AltCleared=-1
 HdgAssigned=-1
-SquawkAssigned=-1717956096
+SquawkAssigned=4608
 LandingSequence=LANDING_NONE
 DepartureRequest=DEPARTURE_VFR_REQUEST_NONE
 ParkingRequest=PARKING_NAME_NONE
@@ -149,11 +149,11 @@ waypoint.2=, , , RW25, U, N46∞ 13.32', E7∞ 20.37', +002800.00, , , , , , NONE, 0
 waypoint.3=, , , RW253, U, N46∞ 12.43', E7∞ 16.22', +003400.00, , , , , , NONE, 0, 0, -1, 0, 0,  
 waypoint.4=LS, R235J, LSGS, R235J, I, N46∞ 7.19', E7∞ 5.55', +005200.00, , , , , , NONE, 0, 0, -1, 0, 0,  
 waypoint.5=LS, SOSAL, , SOSAL, I, N46∞ 33.48', E6∞ 53.07', +010500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-waypoint.6=, , , TIMECRUIS, U, N46∞ 37.33', E6∞ 55.98', +010500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-waypoint.7=, , , TIMEDSCNT, U, N46∞ 52.77', E7∞ 7.73', +010500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-waypoint.8=LF, SL33, LFSB, SL33, I, N47∞ 29.33', E7∞ 36.05', +004150.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-waypoint.9=, , , TIMEAPPROACH, U, N47∞ 39.76', E7∞ 28.71', +001850.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-waypoint.10=, LFSB, , –?–∞–∑–µ–ª—å-–ú—é–ª—É–∑-–§—Ä–∞–?–±—É—Ä–≥, A, N47∞ 35.40', E7∞ 31.75', +000900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.6=, , , TIMECRUIS, U, N46∞ 37.32', E6∞ 55.96', +010500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.7=, , , TIMEDSCNT, U, N46∞ 52.77', E7∞ 7.72', +010500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.8=LF, SL33, LFSB, SL33, I, N47∞ 29.33', E7∞ 36.05', +002200.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.9=, , , TIMEAPPROACH, U, N47∞ 33.01', E7∞ 33.41', +001400.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.10=, LFSB, , –?–∞–∑–µ–ª—å-–ú—é–ª—É–∑-–§—Ä–∞–?–±—É—Ä–≥, A, N47∞ 35.40', E7∞ 31.75', +000877.25, , , , , , NONE, 0, 0, -1, 0, 0,  
 
 [ATC_AircraftManager]
 NumberofAircraft=1
@@ -163,41 +163,41 @@ FrequencyNodes=0
 
 [GPS_Engine]
 Filename=C:\USERS\DMYTRO\APPDATA\ROAMING\MICROSOFT FLIGHT SIMULATOR\MISSIONS\CUSTOM\CUSTOMFLIGHT\CUSTOMFLIGHT
-position=N46∞ 13.25', E7∞ 20.45', +001586.80
-Time=27062
-TimeWP=60967
-ArriveTime=2856
+position=N46∞ 13.29', E7∞ 20.23', +001584.96
+Time=54943
+TimeWP=115567
+ArriveTime=2823
 CountWP=7
 NextWP=2
 WpInfo0=79, 0, 481, 0, 0, 110.0, 0.0, 0.0
-WpInfo1=140, 0, 518, 0, 0, 0.0, 0.2, 0.0
-WpInfo2=139, 0, 701, 0, 0, 0.0, 1.1, 0.0
-WpInfo3=140, 0, 1249, 0, 0, 0.0, 3.4, 0.0
-WpInfo4=140, 0, 2941, 0, 0, 0.0, 10.4, 0.0
-WpInfo5=141, 0, 685, 0, 0, 0.0, 23.4, 0.0
-WpInfo6=110, 0, 274, 0, 0, 0.0, 3.2, 0.0
-CountFP=1
-FP0=27305057,05385d89,00000000,00000000,00000000,00000000,00000000,00000000
+WpInfo1=151, 0, 518, 0, 0, 0.0, 0.2, 0.0
+WpInfo2=128, 0, 701, 0, 0, 0.0, 1.2, 0.0
+WpInfo3=129, 0, 1249, 0, 0, 0.0, 3.7, 0.0
+WpInfo4=137, 0, 2941, 0, 0, 0.0, 10.5, 0.0
+WpInfo5=148, 0, 685, 0, 0, 0.0, 22.3, 0.0
+WpInfo6=107, 0, 274, 0, 0, 0.0, 3.3, 0.0
+CountFP=4
+FP0=27305057,05385d89,27306b0e,05382a56,273098c1,053811aa,27307fd9,0537dc94
 
 [DateTimeSeason]
 Season=Summer
 Year=2023
 Day=102
-Hours=9
-Minutes=31
-Seconds=2.8911406993865966797
+Hours=17
+Minutes=15
+Seconds=43.1759185791015625
 UseZuluTime=False
 
 [SimplifiedSim.0]
 Mode=None
 
 [SimVars.0]
-Latitude=N46∞ 13' 14.93"
-Longitude=E7∞ 20' 27.15"
-Altitude=+001586.80
-Pitch=-8.925247245076612046
-Bank=0.14312217331968374312
-Heading=161.86430523737527665
+Latitude=N46∞ 13' 17.31"
+Longitude=E7∞ 20' 13.99"
+Altitude=+001584.96
+Pitch=-8.8598294007535223216
+Bank=0.41972729035459982461
+Heading=-107.84372535918714675
 PVelBodyAxis=0
 BVelBodyAxis=0
 HVelBodyAxis=0
@@ -208,7 +208,7 @@ SimOnGround=True
 OnPlatformHeight=-9999999999
 
 [Avionics.0]
-Comm1Active=124.850
+Comm1Active=121.700
 Comm1Standby=124.850
 Comm2Active=124.850
 Comm2Standby=124.850
@@ -255,8 +255,8 @@ Attitude=False
 [Engine Parameters.1.0]
 ThrottleLeverPct=0
 PropellerLeverPct=1
-MixtureLeverPct=1
-Pct Engine RPM=0.21445625923360847609
+MixtureLeverPct=0.85711669921875
+Pct Engine RPM=0.21966084224409240799
 MaxReachedEngineRPM=2454.7394303494743326
 Pct N1=-1.7976931348623157081e+308
 Pct N2=-1.7976931348623157081e+308
@@ -272,16 +272,16 @@ EngineMasterSwitch=False
 GlowPlugTemperaturePct=0.58488242659542288848
 IgnitionSwitch=0
 StarterSwitch=False
-EGT_DegR=952.02762664578949625
+EGT_DegR=1003.0234116028890412
 ITT_DegR=-1.7976931348623157081e+308
-FuelPressurePSF=1745.8339596828209324
+FuelPressurePSF=1751.938221797596043
 CorrectedFF=-1.7976931348623157081e+308
 
 [Engine Parameters.2.0]
 ThrottleLeverPct=0
 PropellerLeverPct=1
 MixtureLeverPct=1
-Pct Engine RPM=0.21439402537233057111
+Pct Engine RPM=0.21809976799988067819
 MaxReachedEngineRPM=2454.7394303494743326
 Pct N1=-1.7976931348623157081e+308
 Pct N2=-1.7976931348623157081e+308
@@ -297,18 +297,18 @@ EngineMasterSwitch=False
 GlowPlugTemperaturePct=0.58488242659542288848
 IgnitionSwitch=0
 StarterSwitch=False
-EGT_DegR=958.62798127009034488
+EGT_DegR=993.31610891061643542
 ITT_DegR=-1.7976931348623157081e+308
-FuelPressurePSF=1745.8339596828209324
+FuelPressurePSF=1751.938221797596043
 CorrectedFF=-1.7976931348623157081e+308
 
 [Propeller.1.0]
 prop_beta=0.1745329251994329478
-prop_max_rpm_percent=0.21445625923360847609
+prop_max_rpm_percent=0.21966084224409240799
 
 [Propeller.2.0]
 prop_beta=0.1745329251994329478
-prop_max_rpm_percent=0.21439402537233057111
+prop_max_rpm_percent=0.21809976799988067819
 
 [FuelSystem.0]
 Tank.1=1.4727269411087036133
@@ -347,13 +347,18 @@ LIGHTING_CABIN_1=0
 LIGHTING_CABIN_2=0
 LIGHTING_NAV_1=1
 LIGHTING_BEACON_1=1
+Ignition_Pull_Off=0
 DEICE_Pitot_1=1
 LANDING_GEAR_Gear=1
 HANDLING_RudderTrim=0
 Glasscockpits_FPLHaveOrigin=1
 Glasscockpits_FPLHaveDestination=1
+AS1000_MID_Display_Backup_Active=0
 HUD_AP_SELECTED_SPEED=0
 HUD_AP_SELECTED_ALTITUDE=0
+IGNORE_THIS_IS_NOT_A_REAL_VAR=0
+WT1000_AP_G1000_INSTALLED=0
+XMLVAR_NEXTGEN_FLIGHTPLAN_ENABLED=0
 
 [Switches.0]
 PitotHeat=True
@@ -480,9 +485,9 @@ GearsHandle=000.01
 Gear1=100.00
 Gear2=100.00
 Gear3=100.00
-YokeY=039.27
-YokeX=058.79
-Rudder=022.48
+YokeY=050.00
+YokeX=050.00
+Rudder=050.00
 Collective=000.00
 LeftBrake=000.00
 RightBrake=000.00
@@ -504,4 +509,4 @@ NosewheelMaxSteering=-1
 
 [SimScheduler]
 SimSpeed=001.00
-SimTime=855.34161956651155378
+SimTime=1539.9971078228766146
