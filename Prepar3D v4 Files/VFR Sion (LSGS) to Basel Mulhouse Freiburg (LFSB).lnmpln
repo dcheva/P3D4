@@ -3,8 +3,8 @@
   <Flightplan>
     <Header>
       <FlightplanType>VFR</FlightplanType>
-      <CruisingAlt>10500</CruisingAlt>
-      <CreationDate>2023-04-12T10:04:06+03:00</CreationDate>
+      <CruisingAlt>6000</CruisingAlt>
+      <CreationDate>2023-04-13T00:00:42+03:00</CreationDate>
       <FileVersion>1.1</FileVersion>
       <ProgramName>Little Navmap</ProgramName>
       <ProgramVersion>2.8.9</ProgramVersion>
@@ -17,49 +17,57 @@
       <Name>Example Performance Profile</Name>
     </AircraftPerformance>
     <Departure>
-      <Pos Lon="7.340871" Lat="46.220825" Alt="1578.00"/>
-      <Start>PARKING 85</Start>
-      <Type>Parking</Type>
-      <Heading>160.932</Heading>
+      <Pos Lon="174.771118" Lat="-37.016216" Alt="19.00"/>
+      <Start>05R</Start>
+      <Type>Runway</Type>
+      <Heading>70.9261</Heading>
     </Departure>
     <Procedures>
       <SID>
-        <Name>LSGS25</Name>
-        <Runway>25</Runway>
+        <Name>NZAA05R</Name>
+        <Runway>05R</Runway>
         <Type>CUSTOMDEPART</Type>
         <CustomDistance>3.00</CustomDistance>
       </SID>
     </Procedures>
     <Waypoints>
       <Waypoint>
-        <Name>Sion</Name>
-        <Ident>LSGS</Ident>
+        <Name>Auckland Intl</Name>
+        <Ident>NZAA</Ident>
         <Type>AIRPORT</Type>
-        <Pos Lon="7.326944" Lat="46.219166" Alt="1578.00"/>
+        <Pos Lon="174.791672" Lat="-37.008057" Alt="19.00"/>
       </Waypoint>
       <Waypoint>
-        <Ident>R235J</Ident>
-        <Region>LS</Region>
+        <Name>Auckland</Name>
+        <Ident>AA</Ident>
+        <Region>NZ</Region>
+        <Type>VOR</Type>
+        <Pos Lon="174.813629" Lat="-37.004635" Alt="1111.71"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>ORERE</Ident>
+        <Region>NZ</Region>
         <Type>WAYPOINT</Type>
-        <Pos Lon="7.092494" Lat="46.119751" Alt="5688.60"/>
+        <Pos Lon="175.248047" Lat="-36.945316" Alt="6000.00"/>
       </Waypoint>
       <Waypoint>
-        <Ident>SOSAL</Ident>
-        <Region>LS</Region>
-        <Type>WAYPOINT</Type>
-        <Pos Lon="6.884445" Lat="46.558056" Alt="10500.00"/>
-      </Waypoint>
-      <Waypoint>
-        <Ident>SL33</Ident>
-        <Region>LF</Region>
-        <Type>WAYPOINT</Type>
-        <Pos Lon="7.600778" Lat="47.488895" Alt="2850.73"/>
-      </Waypoint>
-      <Waypoint>
-        <Name>Basel Mulhouse Freiburg</Name>
-        <Ident>LFSB</Ident>
+        <Name>Waihi Beach</Name>
+        <Ident>NZWV</Ident>
         <Type>AIRPORT</Type>
-        <Pos Lon="7.529167" Lat="47.590000" Alt="877.00"/>
+        <Pos Lon="175.952164" Lat="-37.430202" Alt="5895.50"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Tauranga</Name>
+        <Ident>TG</Ident>
+        <Region>NZ</Region>
+        <Type>NDB</Type>
+        <Pos Lon="176.191223" Lat="-37.677555" Alt="137.89"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Tauranga</Name>
+        <Ident>NZTG</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="176.196106" Lat="-37.671944" Alt="12.00"/>
       </Waypoint>
     </Waypoints>
   </Flightplan>

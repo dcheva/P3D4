@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>4500</CruisingAlt>
+      <CreationDate>2023-04-13T16:05:37+03:00</CreationDate>
+      <FileVersion>1.1</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.8.10</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <AircraftPerformance>
+      <FilePath>Cessna 208 Caravan.lnmperf</FilePath>
+      <Type>DC3</Type>
+      <Name>Douglas DC-3</Name>
+    </AircraftPerformance>
+    <Waypoints>
+      <Waypoint>
+        <Name>Toronto/Pearson Intl</Name>
+        <Ident>CYYZ</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-79.630478" Lat="43.676071" Alt="546.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>SYKMA</Ident>
+        <Region>CY</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-79.876663" Lat="43.758335" Alt="4500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Atwood</Name>
+        <Ident>CNN4</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-81.002502" Lat="43.694168" Alt="1232.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>4500</CruisingAlt>
+      <CreationDate>2023-04-13T14:42:51+03:00</CreationDate>
+      <FileVersion>1.1</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.8.9</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData>MSFS</NavData>
+    <AircraftPerformance>
+      <FilePath>Cessna 208 Caravan.lnmperf</FilePath>
+      <Type>C208</Type>
+      <Name>Cessna 208 Caravan</Name>
+    </AircraftPerformance>
+    <Departure>
+      <Pos Lon="-81.373131" Lat="48.565632" Alt="960.00"/>
+      <Start>PARKING 64</Start>
+      <Type>Parking</Type>
+      <Heading>118.367</Heading>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Timmins</Name>
+        <Ident>CYTS</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-81.376640" Lat="48.570660" Alt="960.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>KEBMA</Ident>
+        <Region>CY</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-81.376640" Lat="48.570660" Alt="960.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>STAFE</Ident>
+        <Region>CY</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-81.072670" Lat="48.450085" Alt="4500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Kirkland Lake</Name>
+        <Ident>CYKX</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-79.981255" Lat="48.210262" Alt="1146.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>
