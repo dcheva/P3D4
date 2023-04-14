@@ -2,7 +2,7 @@
 <LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
   <AircraftPerf>
     <Header>
-      <CreationDate>2023-04-13T16:03:15+03:00</CreationDate>
+      <CreationDate>2023-04-14T12:42:10+03:00</CreationDate>
       <FileVersion>1.0</FileVersion>
       <ProgramName>Little Navmap</ProgramName>
       <ProgramVersion>2.8.10</ProgramVersion>
@@ -25,21 +25,21 @@
       <TaxiFuelLbsGal>0.000</TaxiFuelLbsGal>
       <UsableFuelLbsGal>6500.000</UsableFuelLbsGal>
       <Alternate>
-        <FuelFlowLbsGalPerHour>540.000</FuelFlowLbsGalPerHour>
-        <SpeedKtsTAS>160.000</SpeedKtsTAS>
+        <FuelFlowLbsGalPerHour>500.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>140.000</SpeedKtsTAS>
       </Alternate>
       <Climb>
-        <FuelFlowLbsGalPerHour>600.000</FuelFlowLbsGalPerHour>
-        <SpeedKtsTAS>120.000</SpeedKtsTAS>
-        <VertSpeedFtPerMin>550.000</VertSpeedFtPerMin>
+        <FuelFlowLbsGalPerHour>1000.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>110.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>1000.000</VertSpeedFtPerMin>
       </Climb>
       <Cruise>
-        <FuelFlowLbsGalPerHour>540.000</FuelFlowLbsGalPerHour>
-        <SpeedKtsTAS>160.000</SpeedKtsTAS>
+        <FuelFlowLbsGalPerHour>700.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>175.000</SpeedKtsTAS>
       </Cruise>
       <Descent>
-        <FuelFlowLbsGalPerHour>220.000</FuelFlowLbsGalPerHour>
-        <SpeedKtsTAS>120.000</SpeedKtsTAS>
+        <FuelFlowLbsGalPerHour>400.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>140.000</SpeedKtsTAS>
         <VertSpeedFtPerMin>750.000</VertSpeedFtPerMin>
       </Descent>
     </Perf>
