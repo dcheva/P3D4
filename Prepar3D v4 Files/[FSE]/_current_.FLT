@@ -20,12 +20,12 @@ SlewDisplayPage=1
 AxisIndicator=Off
 
 [Sim.0]
-Sim=Grumman Goose G-OOSE
+Sim=Douglas DC-3 DUSTY
 Pilot=Pilot_Male_Casual
 Copilot=Pilot_Female_Casual
-TailNumber=
-AirlineCallSign=
-FlightNumber=
+TailNumber=DCH300
+AirlineCallSign=DCH300
+FlightNumber=0300
 AppendHeavy=False
 
 [ResourcePath]
@@ -35,7 +35,7 @@ Path=_current_
 File=_current_
 
 [FreeFlight]
-FirstFlightState=LANDING_TAXI
+FirstFlightState=PREFLIGHT_PUSHBACK
 
 [Weather]
 UseWeatherFile=False
@@ -49,20 +49,27 @@ FixedClouds=False
 DebugPublicAirflowDisplay=False
 
 [Departure]
-ICAO=NZAA
-RunwayNumber=5
-RunwayDesignator=R
+ICAO=EFMA
+GateName=PARKING
+GateNumber=3
+GateSuffix=NONE
+RunwayNumber=3
+RunwayDesignator=NONE
 
 [Arrival]
-ICAO=NZTG
-RunwayNumber=25
+ICAO=EFOP
+RunwayNumber=14
 RunwayDesignator=NONE
 
 [Loading]
 ImageName0=LOADING_FREEFLIGHT
-Tips0=microsoft-aircraft-g-21,TT:AIRCRAFT.UI_TRIVIA1,TipCategory_Aircraft
-Tips1=microsoft-aircraft-g-21,TT:AIRCRAFT.UI_TRIVIA2,TipCategory_Aircraft
-Tips2=microsoft-aircraft-g-21,TT:AIRCRAFT.UI_TRIVIA3,TipCategory_Aircraft
+Tips0=microsoft-aircraft-dc3,DC stands for Douglas Commercial. The first DC-1 was designed in 1933,TipCategory_Aircraft
+Tips1=microsoft-aircraft-dc3,Prototype DC-3 first flew in 1935. The first customer was American Airlines.,TipCategory_Aircraft
+Tips2=microsoft-aircraft-dc3,Many DC-3s were drafted into the military during World War Two and designated the C-47.,TipCategory_Aircraft
+Tips3=microsoft-aircraft-dc3,A total of 16079 airframes were built including licence built Li-2s in Russia.,TipCategory_Aircraft
+Tips4=microsoft-aircraft-dc3,The C-47 served in all theatres of WW2,Korea and Vietnam.
+Tips5=microsoft-aircraft-dc3,DC-3s remained in commercial service until the 1990s.,TipCategory_Aircraft
+Tips6=microsoft-aircraft-dc3,DC-3s are powered by Pratt and Whitney Twin Wasp or Wright Cyclone engines,TipCategory_Aircraft
 
 [TrafficOptions]
 
@@ -74,114 +81,77 @@ HUD.On=False
 Order=255
 Active=True
 Undocked=False
-Maximized=False
+Maximized=True
 ScreenUniCoords=0, 0, 0, 0
 UndocCoords=0, 0, 0, 0
 
-[ATC_AircraftData.0.0]
-AircraftSignature=1,0
-Contacted=True
-SecLastDing=0
-NumDings=0
-LastDing=0
-LastMessage=1075
-Flags=0
-
-[ATC_Agent.0]
-AgentType=Ground
-Callsign=TAURANGA
-Frequency=1183000
-NumberofAircraft=1
-SecLastMessage=5785.8317857461843232
-
 [ATC_AgentManager]
-NumberofAgents=1
+NumberofAgents=0
 
 [ATC_Aircraft.0]
 ActiveFlightPlan=True
 RequestedFlightPlan=False
-AcState=ACSTATE_NONE
-AgentTracking=2,3,18362368,TAURANGA
-ActiveVFRAirport=NZTG
-Waypoint.0=, NZAA, , –û–∫–ª–µ–Ω–¥, A, S37∞ 0.48', E174∞ 47.50', +000019.00, , , , , , NONE, 0, 0, -1, 0, 0, +
-Waypoint.1=, , , TIMECLIMB, U, S37∞ 1.38', E174∞ 44.78', +000619.00, , , , , , NONE, 0, 0, -1, 0, 0, +
-Waypoint.2=, , , RW05R, U, S37∞ 1.05', E174∞ 46.00', +000800.00, , , , , , NONE, 0, 0, -1, 0, 0, +
-Waypoint.3=, , , RW05R3, U, S37∞ 0.07', E174∞ 49.55', +001400.00, , , , , , NONE, 0, 0, -1, 0, 0, +
-Waypoint.4=NZ, AA, , AA, V, S37∞ 0.28', E174∞ 48.82', +001500.00, , , , , , NONE, 0, 0, -1, 0, 0, +
-Waypoint.5=NZ, ORERE, , ORERE, I, S36∞ 56.72', E175∞ 14.88', +005700.00, , , , , , NONE, 0, 0, -1, 0, 0, +
-Waypoint.6=, , , TIMECRUIS, U, S37∞ 3.14', E175∞ 24.12', +006000.00, , , , , , NONE, 0, 0, -1, 0, 0, +
-Waypoint.7=, , , TIMEDSCNT, U, S37∞ 14.85', E175∞ 41.11', +006000.00, , , , , , NONE, 0, 0, -1, 0, 0, +
-Waypoint.8=, NZWV, , –£–∞–∏—?–∏-–?–∏—?, A, S37∞ 25.81', E175∞ 57.13', +005250.00, , , , , , NONE, 0, 0, -1, 0, 0, +
-Waypoint.9=NZ, TG, , TG, N, S37∞ 40.65', E176∞ 11.47', +001500.00, , , , , , NONE, 0, 0, -1, 0, 0, +
-Waypoint.10=, , , TIMEAPPROACH, U, S37∞ 40.62', E176∞ 16.30', +000750.00, , , , , , NONE, 0, 0, -1, 0, 0, +
-Waypoint.11=, NZTG, , –¢–∞—É—Ä–∞–Ω–≥–∞, A, S37∞ 40.32', E176∞ 11.77', +000012.12, , , , , , NONE, 0, 0, -1, 0, 0, +
-TaxiRouteAirport=NZTG
-TaxiRoute.0=200,143,1,0,-1
-TaxiRoute.1=190,153,1,0,-1
-TaxiRoute.2=189,142,1,0,-1
-TaxiRoute.3=188,141,1,0,-1
-TaxiRoute.4=187,140,1,0,-1
-TaxiRoute.5=121,139,2,0,-1
-TaxiRoute.6=30,26,2,0,-1
-TaxiRoute.7=31,27,2,0,-1
-TaxiRoute.8=1,28,1,0,-1
-NumTaxiRoute=9
-NumberofWaypoints=12
-ClearanceFlags=88a
+AcState=ACSTATE_REQUEST_TAXI_CLEARANCE_OUT_VFR_ATIS
+ActiveVFRAirport=EFMA
+Waypoint.0=, EFMA, , –ú–∞—Ä–∏–µ—?–∞–º–Ω, A, N60∞ 7.34', E19∞ 53.91', +000011.50, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.1=, , , TIMECLIMB, U, N60∞ 5.04', E19∞ 51.90', +000611.50, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.2=EF, MAR, , MAR, V, N60∞ 8.46', E19∞ 54.87', +001350.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.3=EF, TIKMO, EFMA, TIKMO, I, N60∞ 12.30', E19∞ 58.21', +002200.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.4=, , , TIMECRUIS, U, N60∞ 27.35', E20∞ 58.05', +004500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.5=, , , TIMEDSCNT, U, N60∞ 35.89', E21∞ 33.26', +004500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.6=, , , TIMEAPPROACH, U, N60∞ 55.12', E22∞ 40.85', +000950.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.7=, EFOP, , –û—Ä–∏–ø—è, A, N60∞ 52.57', E22∞ 44.88', +000331.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+NumberofWaypoints=8
+ClearanceFlags=882
 CtCur=CLEARANCE_NONE
-WaypointNext=11
+WaypointNext=1
 AltCleared=-1
 HdgAssigned=-1
-SquawkAssigned=4915
+SquawkAssigned=4608
 LandingSequence=LANDING_NONE
 DepartureRequest=DEPARTURE_VFR_REQUEST_NONE
-ParkingRequest=PARKING_NAME_PARKING
+ParkingRequest=PARKING_NAME_NONE
 ParkingTypeRequest=PARKING_TYPE_NONE
-PatternLeg=PATTERN_LEG_UPWIND
+PatternLeg=PATTERN_LEG_NONE
 ApproachIndex=-1
 ApproachTransitionIndex=-1
 ApproachRequestIndex=-1
 ApproachTransitionRequestIndex=-1
 RunwayIndex=-1
 RunwayRequestIndex=-1
-ParkingIndex=1
+ParkingIndex=0
 FlightFollowing=FLIGHT_FOLLOWING_NO
 AirspaceTransition=AIRSPACE_TRANSITION_NONE
 BVAirspaceTransition=BV_TYPE_NONE
-BVAirspaceTransitionReq=BV_TYPE_CLASS_C
+BVAirspaceTransitionReq=BV_TYPE_NONE
 TakeoffSequence=TAKEOFF_SEQUENCE_NONE
 LandingSequenceNumber=-1
-TaxiRouteCurrent=0
-CruisingAltitude=6500
+TaxiRouteCurrent=-1
+CruisingAltitude=4500
 RequestedCruisingAltitude=-1
 ExpectedAltitude=-1
-AgentHandoff=2,3,18362368,TAURANGA
 AircraftSignature=1,0
 
 [ATC_ActiveFlightPlan.0]
-title=NZAA to NZTG
-description=NZAA, NZTG
+title=EFMA to EFOP
+description=EFMA, EFOP
 type=VFR
 routetype=0
-cruising_altitude=6000
-departure_id=NZAA, S37∞ 0.97', E174∞ 46.27', +000019.00
-departure_position=5R
-destination_id=NZTG, S37∞ 40.32', E176∞ 11.77', +000012.00
-departure_name=Auckland Intl
-destination_name=Tauranga
+cruising_altitude=4500
+departure_id=EFMA, N60∞ 7.47', E19∞ 54.38', +000011.00
+departure_position=PARKING 3 PARKING NONE
+destination_id=EFOP, N60∞ 52.57', E22∞ 44.88', +000331.00
+departure_name=Mariehamn
+destination_name=Oripaa
 alternate_name=AlternateName
-waypoint.0=, NZAA, , –û–∫–ª–µ–Ω–¥, A, S37∞ 0.48', E174∞ 47.50', +000019.00, , , , , , NONE, 0, 0, -1, 0, 0, +
-waypoint.1=, , , TIMECLIMB, U, S37∞ 1.38', E174∞ 44.78', +000619.00, , , , , , NONE, 0, 0, -1, 0, 0, +
-waypoint.2=, , , RW05R, U, S37∞ 1.05', E174∞ 46.00', +000800.00, , , , , , NONE, 0, 0, -1, 0, 0, +
-waypoint.3=, , , RW05R3, U, S37∞ 0.07', E174∞ 49.55', +001400.00, , , , , , NONE, 0, 0, -1, 0, 0, +
-waypoint.4=NZ, AA, , AA, V, S37∞ 0.28', E174∞ 48.82', +001500.00, , , , , , NONE, 0, 0, -1, 0, 0, +
-waypoint.5=NZ, ORERE, , ORERE, I, S36∞ 56.72', E175∞ 14.88', +005700.00, , , , , , NONE, 0, 0, -1, 0, 0, +
-waypoint.6=, , , TIMECRUIS, U, S37∞ 3.14', E175∞ 24.12', +006000.00, , , , , , NONE, 0, 0, -1, 0, 0, +
-waypoint.7=, , , TIMEDSCNT, U, S37∞ 14.85', E175∞ 41.11', +006000.00, , , , , , NONE, 0, 0, -1, 0, 0, +
-waypoint.8=, NZWV, , –£–∞–∏—?–∏-–?–∏—?, A, S37∞ 25.81', E175∞ 57.13', +005250.00, , , , , , NONE, 0, 0, -1, 0, 0, +
-waypoint.9=NZ, TG, , TG, N, S37∞ 40.65', E176∞ 11.47', +001500.00, , , , , , NONE, 0, 0, -1, 0, 0, +
-waypoint.10=, , , TIMEAPPROACH, U, S37∞ 40.62', E176∞ 16.30', +000750.00, , , , , , NONE, 0, 0, -1, 0, 0, +
-waypoint.11=, NZTG, , –¢–∞—É—Ä–∞–Ω–≥–∞, A, S37∞ 40.32', E176∞ 11.77', +000012.12, , , , , , NONE, 0, 0, -1, 0, 0, +
+waypoint.0=, EFMA, , –ú–∞—Ä–∏–µ—?–∞–º–Ω, A, N60∞ 7.34', E19∞ 53.91', +000011.50, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.1=, , , TIMECLIMB, U, N60∞ 5.04', E19∞ 51.90', +000611.50, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.2=EF, MAR, , MAR, V, N60∞ 8.46', E19∞ 54.87', +001350.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.3=EF, TIKMO, EFMA, TIKMO, I, N60∞ 12.30', E19∞ 58.21', +002200.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.4=, , , TIMECRUIS, U, N60∞ 27.35', E20∞ 58.05', +004500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.5=, , , TIMEDSCNT, U, N60∞ 35.89', E21∞ 33.26', +004500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.6=, , , TIMEAPPROACH, U, N60∞ 55.12', E22∞ 40.85', +000950.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.7=, EFOP, , –û—Ä–∏–ø—è, A, N60∞ 52.57', E22∞ 44.88', +000331.00, , , , , , NONE, 0, 0, -1, 0, 0,  
 
 [ATC_AircraftManager]
 NumberofAircraft=1
@@ -189,25 +159,44 @@ NumberofAircraft=1
 [ATC_MessageSystem]
 FrequencyNodes=0
 
+[GPS_Engine]
+Filename=C:\USERS\DMYTRO\APPDATA\ROAMING\MICROSOFT FLIGHT SIMULATOR\MISSIONS\CUSTOM\CUSTOMFLIGHT\CUSTOMFLIGHT
+position=N60∞ 6.87', E19∞ 53.49', +000014.72
+Time=36482
+TimeWP=75405
+ArriveTime=2319
+CountWP=4
+NextWP=1
+WpInfo0=69, 0, 3, 0, 0, 401.8, 0.0, 0.0
+WpInfo1=77, 0, 76, 0, 0, 0.0, 2.2, 0.0
+WpInfo2=77, 0, 335, 0, 0, 0.0, 7.6, 0.0
+WpInfo3=94, 0, 106, 0, 0, 0.0, 80.5, 0.0
+CountFP=19
+FP0=32fa32fa,0e27bc6f,32fa464c,0e276eb6,32fa591f,0e272082,32fa4985,0e26d06f
+FP1=32fa1cbb,0e26aa53,32f9eee0,0e2688a6,32f9c06d,0e266746,32f991e2,0e26470c
+FP2=32f9635d,0e26281a,32f934b7,0e2609d0,32f905de,0e25ec4c,32f8d6e4,0e25ced9
+FP3=32f8a8ff,0e25ad45,32f87b51,0e2589c6,32f84d4f,0e2567d9,32f81fcd,0e2544b7
+FP4=32f7f533,0e251825,32f7ccb7,0e24e67f,32f7f303,0e251caf,00000000,00000000
+
 [DateTimeSeason]
-Season=Spring
+Season=Summer
 Year=2023
-Day=103
-Hours=10
-Minutes=1
-Seconds=6.5436358451843261719
+Day=105
+Hours=12
+Minutes=8
+Seconds=2.5315599441528320312
 UseZuluTime=False
 
 [SimplifiedSim.0]
 Mode=None
 
 [SimVars.0]
-Latitude=S37∞ 40' 17.70"
-Longitude=E176∞ 11' 55.07"
-Altitude=+000017.83
-Pitch=-9.1061960316631758161
-Bank=0.3631126332553685776
-Heading=-92.494969709989263151
+Latitude=N60∞ 6' 52.31"
+Longitude=E19∞ 53' 29.23"
+Altitude=+000014.72
+Pitch=-11.892961024352567634
+Bank=0.11222514876824975227
+Heading=23.075556276661359334
 PVelBodyAxis=0
 BVelBodyAxis=0
 HVelBodyAxis=0
@@ -236,8 +225,8 @@ OBS3=360
 Nav4Active=110.50
 Nav4Standby=113.90
 OBS4=360
-Transponder=1333
-TransponderState=4
+Transponder=7000
+TransponderState=0
 ADFActive=890
 ADF2Active=890
 DMESelected=1
@@ -264,77 +253,85 @@ Attitude=False
 
 [Engine Parameters.1.0]
 ThrottleLeverPct=0
-PropellerLeverPct=1
+PropellerLeverPct=0.96875
 MixtureLeverPct=1
-Pct Engine RPM=0.22897181196122409763
-MaxReachedEngineRPM=2455.8873492290276772
+Pct Engine RPM=0.22561281963056636912
+MaxReachedEngineRPM=2202.3625717013278518
 Pct N1=-1.7976931348623157081e+308
 Pct N2=-1.7976931348623157081e+308
 LeftMagneto=True
 RightMagneto=True
-GeneratorSwitch=True
+GeneratorSwitch=False
 CowlFlapPct=0
 FuelPumpSwitch=False
 FuelPumpSwitch_EX1=0
 FuelValveOpen=True
 CarbHeat/DeiceSwitch=False
-EngineMasterSwitch=True
+EngineMasterSwitch=False
 GlowPlugTemperaturePct=1
 IgnitionSwitch=0
 StarterSwitch=False
-EGT_DegR=979.06858490965589681
+EGT_DegR=743.20763817352576552
 ITT_DegR=-1.7976931348623157081e+308
-FuelPressurePSF=1763.7520325015939306
+FuelPressurePSF=2177.6532791667027595
 CorrectedFF=-1.7976931348623157081e+308
 
 [Engine Parameters.2.0]
 ThrottleLeverPct=0
-PropellerLeverPct=1
+PropellerLeverPct=0.96875
 MixtureLeverPct=1
-Pct Engine RPM=0.22893748735815891426
-MaxReachedEngineRPM=2455.9262015540325592
+Pct Engine RPM=0.22383151705005879806
+MaxReachedEngineRPM=2187.5441186653965815
 Pct N1=-1.7976931348623157081e+308
 Pct N2=-1.7976931348623157081e+308
 LeftMagneto=True
 RightMagneto=True
-GeneratorSwitch=True
+GeneratorSwitch=False
 CowlFlapPct=0
 FuelPumpSwitch=False
 FuelPumpSwitch_EX1=0
 FuelValveOpen=True
 CarbHeat/DeiceSwitch=False
-EngineMasterSwitch=True
+EngineMasterSwitch=False
 GlowPlugTemperaturePct=1
 IgnitionSwitch=0
 StarterSwitch=False
-EGT_DegR=979.07730441200567384
+EGT_DegR=743.30253993357848685
 ITT_DegR=-1.7976931348623157081e+308
-FuelPressurePSF=1763.7520325015939306
+FuelPressurePSF=2177.4536821118026637
 CorrectedFF=-1.7976931348623157081e+308
 
 [Propeller.1.0]
-prop_beta=0.1745329251994329478
-prop_max_rpm_percent=0.22897181196122409763
+prop_beta=0.27925268031909272759
+prop_max_rpm_percent=0.22561281963056636912
 
 [Propeller.2.0]
-prop_beta=0.1745329251994329478
-prop_max_rpm_percent=0.22893748735815891426
+prop_beta=0.27925268031909272759
+prop_max_rpm_percent=0.22383151705005879806
 
-[FuelSystem.0]
-Tank.1=0.57507020235061645508
-Tank.2=0.5759055018424987793
-Valve.1=True
-Valve.2=True
-Valve.3=True
-Valve.4=True
-Valve.5=True
-Valve.6=True
-Pump.1=1
-Pump.2=1
-Pump.3=1
+[Hydraulic Parameters.1.0]
+HydraulicPressure=185315.16595966296154
+
+[Hydraulic Parameters.2.0]
+HydraulicPressure=183342.21083445439581
+
+[Fuel.0]
+TankSelector=Left
+TankSelector1=Right
+Center=50
+LeftMain=49.090816497802734375
+RightMain=49.093547821044921875
+LeftAux=0
+RightAux=0
+LeftTip=0
+RightTip=0
+Center 2=50
+Center 3=0
+External 1=0
+External 2=0
 
 [Gauges.0]
-KollsmanSetting=29.908054351806640625
+KollsmanSetting=29.921342849731445312
 
 [BleedAir.0]
 BleedAirSource=0
@@ -349,87 +346,176 @@ EngineAirBleed.8=True
 APUAirBleed=True
 
 [LocalVars.0]
-FUEL_Tank_Select=0
+SPERRY_dgcage=0
+SPERRY_switch_lights=0
+SPERRY_gauge_attitude_wing=0
+SPERRY_knob_attitude_wing=0
+LeftFuelSelector=0
+RightFuelSelector=0
+XMLVAR_ADF_Mode=2
+DC3_fuelquantgauge=0
+powercheck=1
 ParkingBrake_Position=0
-HANDLING_ElevatorTrim=140.0085454434474741
-LIGHTING_LANDING_1=0
-LIGHTING_CABIN_1=1
-LIGHTING_CABIN_2=1
-LIGHTING_NAV_1=1
-LIGHTING_BEACON_1=1
-DEICE_Pitot_1=1
+HANDLING_ElevatorTrim=0
+XMLVAR_YokeHidden1=1
+XMLVAR_YokeHidden2=1
+totalhydraulicpress=42.668909613172814943
+Hydsystem=1
+FlapHandle=1
+Fire_door=1
+ExtinguisherSelector=1
+funcinit=1
+DC3_manifold_gauge_select=3
+oxyamount=100
+SWITCH_LandLight=1
+SWITCH_starter=1
+radioheightcheck=0.096785541383175854868
+throttlewarn=1
+DC3_lever_cowl_flaps0=0
+DC3_lever_cowl_flaps1=0
+cowlflapcount=39
+cowltest=15903.448233456376329
+suctionenabled=0
+primerlock=0
+magpos=3
+magpos2=3
+radio_adf1000_knob=0
+radio_adf100_knob=80
+radio_adf10_knob=90
+radio_adf1_knob=0
+radio_adfdec_knob=0
+wipersound=0
+flapfuncinit=1
+Leftflapnoncombust=0
+flap_noncombustioncheck=0
+rightflapnoncombust=0
+flap_check=0
+combustionachieved=1
+init_flap=1
+INSTRUMENT_Altimeter_1=1013.2500109386215854
+INSTRUMENT_Altimeter_2=1013.2500109386215854
+INSTRUMENT_ADF=0
+INSTRUMENT_Course_1=0
+INSTRUMENT_Course_2=0
 LANDING_GEAR_Gear=1
 HANDLING_RudderTrim=0
-HourMeter_ScreenLuminosity=1
-HourMeter_State=2
-g21-ini-efb_ScreenLuminosity=1
-g21-ini-efb_State=2
-Glasscockpits_FPLHaveOrigin=0
-Glasscockpits_FPLHaveDestination=0
-AS1000_MID_Display_Backup_Active=0
+HANDLING_AileronsTrim=0
+ELECTRICAL_ExternalPower_1=0
+DEICE_Pitot_1=0
+DEICE_Airframe_1=0
+DEICE_Propeller_1=0
+LIGHTING_BEACON_1=0
+LIGHTING_NAV_1=1
+LIGHTING_LANDING_1=0
+LIGHTING_LANDING_2=0
+LIGHTING_CABIN_4=0
+LIGHTING_CABIN_2=0
+LIGHTING_CABIN_3=0
+LIGHTING_CABIN_1=0
+startereffect1_on=0
+exhaust_l_count=0
+startereffect2_on=0
+exhaust_r_count=0
 HUD_AP_SELECTED_SPEED=0
 HUD_AP_SELECTED_ALTITUDE=0
-IGNORE_THIS_IS_NOT_A_REAL_VAR=0
-WT1000_AP_G1000_INSTALLED=0
-XMLVAR_NEXTGEN_FLIGHTPLAN_ENABLED=0
-PFD_CDI_Source=3
+KX155A_1_ScreenLuminosity=1
+KX155A_1_State=2
+KX155A_2_ScreenLuminosity=1
+KX155A_2_State=2
+C300ADF_ScreenLuminosity=1
+C300ADF_State=2
+PFD_CDI_Source=1
 Glasscockpit_DmeSource=1
 
 [Switches.0]
-PitotHeat=True
-PitotHeat_EX1=1
+PitotHeat=False
+PitotHeat_EX1=0
 WindshieldDeice=0
-BeaconLights=True
+BeaconLights=False
 LandingLights=False
 LogoLights=False
-NavLights=True
+NavLights=False
 PanelLights=False
-RecognitionLights=True
-StrobeLights=True
+RecognitionLights=False
+StrobeLights=False
 TaxiLights=False
-WingLights=True
-CabinLights=True
+WingLights=False
+CabinLights=False
 GlareshieldLights=False
 PedestalLights=False
 AmbientLights=False
-BeaconLightsNight=True
+BeaconLightsNight=False
 LandingLightsNight=False
 LogoLightsNight=False
-NavLightsNight=True
-PanelLightsNight=True
-RecognitionLightsNight=True
-StrobeLightsNight=True
+NavLightsNight=False
+PanelLightsNight=False
+RecognitionLightsNight=False
+StrobeLightsNight=False
 TaxiLightsNight=False
-WingLightsNight=True
-CabinLightsNight=True
+WingLightsNight=False
+CabinLightsNight=False
 GlareshieldLightsNight=False
 PedestalLightsNight=False
 AmbientLightsNight=False
+Potentiometer.6=0
+Potentiometer.7=0
+Potentiometer.8=0
+Potentiometer.9=0
+Potentiometer.10=0
 
 [Electrical.0]
 circuit.1=True,1.00
 circuit.2=True,1.00
 circuit.3=False,1.00
 circuit.4=False,1.00
-circuit.5=True,1.00
+circuit.5=False,1.00
 circuit.6=False,1.00
-circuit.7=True,1.00
+circuit.7=False,1.00
 circuit.8=True,1.00
 circuit.9=True,1.00
-circuit.10=False,1.00
+circuit.10=True,1.00
 circuit.11=False,1.00
-circuit.12=True,1.00
-circuit.13=False,1.00
+circuit.12=False,1.00
+circuit.13=True,1.00
 circuit.14=True,1.00
-circuit.15=True,1.00
-circuit.16=True,1.00
-circuit.17=True,1.00
-circuit.18=True,1.00
+circuit.15=False,1.00
+circuit.16=False,1.00
+circuit.17=False,1.00
+circuit.18=False,1.00
 circuit.19=True,1.00
-circuit.20=True,1.00
+circuit.20=False,1.00
+circuit.21=False,1.00
+circuit.22=False,1.00
+circuit.23=False,1.00
+circuit.24=False,1.00
+circuit.25=False,1.00
+circuit.26=False,1.00
+circuit.27=False,1.00
+circuit.28=True,1.00
+circuit.29=True,1.00
+circuit.30=True,1.00
+circuit.31=True,1.00
+circuit.32=True,1.00
+circuit.33=True,1.00
+circuit.34=True,1.00
+circuit.35=True,1.00
+circuit.36=True,1.00
+circuit.37=True,1.00
+circuit.38=False,1.00
+circuit.39=True,1.00
+circuit.40=True,1.00
+circuit.41=True,1.00
+circuit.42=True,1.00
+circuit.43=True,1.00
+circuit.44=True,1.00
+circuit.45=True,1.00
+circuit.46=True,1.00
+circuit.47=False,1.00
+circuit.48=False,1.00
+circuit.49=False,1.00
 battery.1=True
-battery.2=False
 alternator.1=True
+alternator.2=True
 
 [Systems.0]
 BatterySwitch=True
@@ -440,8 +526,8 @@ Autobrakes=0
 StandbyVacuum=False
 PropSync=False
 AutoFeatherSwitch=False
-FlightDirector=False
-PanelLights=False
+FlightDirector=True
+PanelLights=True
 LaunchBarSwitch=False
 LaunchBarState=0
 TailhookHandle=False
@@ -459,8 +545,8 @@ GovernorSwitch=False
 MasterSwitch=False
 WingLeveler=False
 Nav1Lock=False
-HeadingLock=False
-HeadingValue=0
+HeadingLock=True
+HeadingValue=55
 AltitudeLock=False
 AltitudeValue=0
 AttitudeHold=False
@@ -478,7 +564,7 @@ BackCourseHold=False
 YawDamper=False
 ToGa=False
 AutoThrottleArm=False
-GPSdrivesNAV1=True
+GPSdrivesNAV1=False
 IsUsedForLesson=False
 ForceDisplayUI=False
 AutopilotDisengaged=False
@@ -489,7 +575,7 @@ SpeedSlotIndex=1
 VSSlotIndex=1
 
 [Payload.0]
-PayloadList= 564.4, 564.4, 564.4
+PayloadList= 200.0, 200.0, 462.0, 462.0, 462.0, 462.0, 462.0, 462.0, 462.0
 
 [Controls.0]
 SpoilersHandle=000.00
@@ -504,10 +590,10 @@ YokeY=050.00
 YokeX=050.00
 Rudder=050.02
 Collective=000.00
-LeftBrake=000.00
-RightBrake=000.00
+LeftBrake=003.30
+RightBrake=003.30
 ParkingBrake=000.00
-ElevatorTrim=050.43
+ElevatorTrim=050.00
 LateralTrim=050.00
 LongitudinalTrim=050.00
 RudderTrimPct=0
@@ -524,4 +610,4 @@ NosewheelMaxSteering=-1
 
 [SimScheduler]
 SimSpeed=001.00
-SimTime=5992.0683684044379333
+SimTime=3129.9969422877393299
