@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>4500</CruisingAlt>
+      <CreationDate>2023-04-16T11:08:47+03:00</CreationDate>
+      <FileVersion>1.1</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.8.10</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <AircraftPerformance>
+      <FilePath>Cessna 208 Caravan.lnmperf</FilePath>
+      <Type>DC3</Type>
+      <Name>Douglas DC-3</Name>
+    </AircraftPerformance>
+    <Departure>
+      <Pos Lon="7.811704" Lat="36.819393" Alt="11.00"/>
+      <Start>PARKING 1</Start>
+      <Type>Parking</Type>
+      <Heading>231.34</Heading>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Rabah Bitat</Name>
+        <Ident>DABB</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="7.809444" Lat="36.822224" Alt="11.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Borj El Amri</Name>
+        <Ident>DTTI</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="9.943334" Lat="36.721111" Alt="108.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>
