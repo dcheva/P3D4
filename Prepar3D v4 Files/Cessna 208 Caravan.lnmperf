@@ -2,7 +2,7 @@
 <LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
   <AircraftPerf>
     <Header>
-      <CreationDate>2023-04-16T12:45:36+03:00</CreationDate>
+      <CreationDate>2023-04-19T18:23:12+03:00</CreationDate>
       <FileVersion>1.0</FileVersion>
       <ProgramName>Little Navmap</ProgramName>
       <ProgramVersion>2.8.10</ProgramVersion>
@@ -12,7 +12,7 @@
       <Name>Douglas DC-3</Name>
       <AircraftType>DC3</AircraftType>
       <Simulator>MSFS</Simulator>
-      <Description></Description>
+      <Description>Engine at cruise 90-80-70</Description>
       <FuelAsVolume>0</FuelAsVolume>
       <JetFuel>0</JetFuel>
     </Options>
@@ -29,13 +29,13 @@
         <SpeedKtsTAS>140.000</SpeedKtsTAS>
       </Alternate>
       <Climb>
-        <FuelFlowLbsGalPerHour>1250.000</FuelFlowLbsGalPerHour>
-        <SpeedKtsTAS>100.000</SpeedKtsTAS>
-        <VertSpeedFtPerMin>1000.000</VertSpeedFtPerMin>
+        <FuelFlowLbsGalPerHour>1300.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>150.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>700.000</VertSpeedFtPerMin>
       </Climb>
       <Cruise>
-        <FuelFlowLbsGalPerHour>735.000</FuelFlowLbsGalPerHour>
-        <SpeedKtsTAS>170.000</SpeedKtsTAS>
+        <FuelFlowLbsGalPerHour>700.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>160.000</SpeedKtsTAS>
       </Cruise>
       <Descent>
         <FuelFlowLbsGalPerHour>250.000</FuelFlowLbsGalPerHour>
