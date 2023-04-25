@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>Auburn Mun to Horse Fly</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>2500.000</CruisingAlt>
+        <DepartureID>S50</DepartureID>
+        <DepartureLLA>N47° 19' 39.45",W122° 13' 35.96",+000059.50</DepartureLLA>
+        <DestinationID>WA88</DestinationID>
+        <DestinationLLA>N48° 53' 34.40",W122° 33' 24.61",+000070.00</DestinationLLA>
+        <Descr>Auburn Mun to Horse Fly</Descr>
+        <DeparturePosition>34</DeparturePosition>
+        <DepartureName>Auburn Mun</DepartureName>
+        <DestinationName>Horse Fly</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="S50">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N47° 19' 39.45",W122° 13' 35.96",+000059.50</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S50</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMECLIMB">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 22' 23.65",W122° 13' 37.66",+000657.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMECRUIS">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 59' 53.03",W122° 21' 37.12",+002500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMEDSCNT">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N48° 18' 37.47",W122° 25' 41.23",+002500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMEVERT">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N48° 53' 34.40",W122° 33' 24.61",+000050.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WA88">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N48° 53' 34.40",W122° 33' 24.61",+000070.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>WA88</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

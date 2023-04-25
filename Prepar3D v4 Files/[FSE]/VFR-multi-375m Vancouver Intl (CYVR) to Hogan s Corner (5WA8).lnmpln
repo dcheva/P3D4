@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>3500</CruisingAlt>
+      <CreationDate>2023-04-26T02:25:46+03:00</CreationDate>
+      <FileVersion>1.1</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.8.10</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData>MSFS</NavData>
+    <AircraftPerformance>
+      <Type>DC3</Type>
+      <Name>DC-3</Name>
+    </AircraftPerformance>
+    <Departure>
+      <Pos Lon="-123.163536" Lat="49.200928" Alt="9.00"/>
+      <Start>26R</Start>
+      <Type>Runway</Type>
+      <Heading>279.926</Heading>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Vancouver Intl</Name>
+        <Ident>CYVR</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-123.183968" Lat="49.194695" Alt="9.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Friday Harbor Airport</Name>
+        <Ident>KFHR</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-123.025085" Lat="48.522915" Alt="3500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Frontier Airpark</Name>
+        <Ident>WN53</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-122.062836" Lat="48.110424" Alt="3500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Vantage</Name>
+        <Ident>WA68</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-119.986771" Lat="46.935062" Alt="3500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Seattle-Tacoma Intl</Name>
+        <Ident>KSEA</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-122.309311" Lat="47.448997" Alt="3500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Hogan's Corner</Name>
+        <Ident>5WA8</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-124.145729" Lat="47.042866" Alt="50.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>
