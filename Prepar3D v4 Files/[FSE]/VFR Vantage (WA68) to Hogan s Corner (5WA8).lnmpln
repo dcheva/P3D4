@@ -3,8 +3,8 @@
   <Flightplan>
     <Header>
       <FlightplanType>VFR</FlightplanType>
-      <CruisingAlt>5500</CruisingAlt>
-      <CreationDate>2023-04-26T15:57:42+03:00</CreationDate>
+      <CruisingAlt>6000</CruisingAlt>
+      <CreationDate>2023-04-26T23:57:10+03:00</CreationDate>
       <FileVersion>1.1</FileVersion>
       <ProgramName>Little Navmap</ProgramName>
       <ProgramVersion>2.8.10</ProgramVersion>
@@ -16,42 +16,24 @@
       <Type>C172</Type>
       <Name>Example Performance Profile</Name>
     </AircraftPerformance>
-    <Departure>
-      <Pos Lon="-123.024704" Lat="48.525959" Alt="92.00"/>
-      <Start>16</Start>
-      <Type>Runway</Type>
-      <Heading>176.989</Heading>
-    </Departure>
     <Waypoints>
-      <Waypoint>
-        <Name>Friday Harbor Airport</Name>
-        <Ident>KFHR</Ident>
-        <Type>AIRPORT</Type>
-        <Pos Lon="-123.025085" Lat="48.522915" Alt="92.00"/>
-      </Waypoint>
-      <Waypoint>
-        <Name>Frontier Airpark</Name>
-        <Ident>WN53</Ident>
-        <Type>AIRPORT</Type>
-        <Pos Lon="-122.062836" Lat="48.110424" Alt="5500.00"/>
-      </Waypoint>
       <Waypoint>
         <Name>Vantage</Name>
         <Ident>WA68</Ident>
         <Type>AIRPORT</Type>
-        <Pos Lon="-119.986771" Lat="46.935062" Alt="5500.00"/>
+        <Pos Lon="-119.986771" Lat="46.935062" Alt="580.00"/>
       </Waypoint>
       <Waypoint>
         <Name>Seattle-Tacoma Intl</Name>
         <Ident>KSEA</Ident>
         <Type>AIRPORT</Type>
-        <Pos Lon="-122.309311" Lat="47.448997" Alt="5500.00"/>
+        <Pos Lon="-122.309311" Lat="47.448997" Alt="6000.00"/>
       </Waypoint>
       <Waypoint>
         <Name>Auburn Mun</Name>
         <Ident>S50</Ident>
         <Type>AIRPORT</Type>
-        <Pos Lon="-122.226654" Lat="47.327625" Alt="5500.00"/>
+        <Pos Lon="-122.226654" Lat="47.327625" Alt="6000.00"/>
       </Waypoint>
       <Waypoint>
         <Name>Hogan's Corner</Name>
