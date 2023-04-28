@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>9000</CruisingAlt>
+      <CreationDate>2023-04-28T01:43:21+03:00</CreationDate>
+      <FileVersion>1.1</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.8.10</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <AircraftPerformance>
+      <FilePath>Douglas DC-3.lnmperf</FilePath>
+      <Type>C172</Type>
+      <Name>Example Performance Profile</Name>
+    </AircraftPerformance>
+    <Departure>
+      <Pos Lon="-120.895966" Lat="44.285782" Alt="3251.00"/>
+      <Start>29</Start>
+      <Type>Runway</Type>
+      <Heading>299.39</Heading>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Prineville</Name>
+        <Ident>S39</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-120.905495" Lat="44.287857" Alt="3251.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Bend Mun</Name>
+        <Ident>KBDN</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-121.200226" Lat="44.094563" Alt="9000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Oakridge State</Name>
+        <Ident>5S0</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-122.504524" Lat="43.752560" Alt="9000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Lafferty Field</Name>
+        <Ident>9OR0</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-123.024811" Lat="44.315125" Alt="360.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>
