@@ -2,27 +2,34 @@
 <SimBase.Document Type="AceXML" version="1,0">
     <Descr>AceXML Document</Descr>
     <FlightPlan.FlightPlan>
-        <Title>9OR0 to 9OR0</Title>
+        <Title>S30 to 9OR0</Title>
         <FPType>VFR</FPType>
         <RouteType>Direct</RouteType>
-        <CruisingAlt>6000</CruisingAlt>
-        <DepartureID>9OR0</DepartureID>
-        <DepartureLLA>N44° 18' 54.27",W123° 1' 28.71",+000360.00</DepartureLLA>
+        <CruisingAlt>2500</CruisingAlt>
+        <DepartureID>S30</DepartureID>
+        <DepartureLLA>N44° 32' 4.64",W122° 55' 47.26",+000349.00</DepartureLLA>
         <DestinationID>9OR0</DestinationID>
         <DestinationLLA>N44° 18' 54.45",W123° 1' 29.32",+000360.00</DestinationLLA>
-        <Descr>9OR0, 9OR0</Descr>
-        <DeparturePosition>PARKING 2</DeparturePosition>
-        <DepartureName>Lafferty Field</DepartureName>
+        <Descr>S30, 9OR0</Descr>
+        <DeparturePosition>16</DeparturePosition>
+        <DepartureName>Lebanon State</DepartureName>
         <DestinationName>Lafferty Field</DestinationName>
         <AppVersion>
             <AppVersionMajor>11</AppVersionMajor>
             <AppVersionBuild>282174</AppVersionBuild>
         </AppVersion>
-        <ATCWaypoint id="9OR0">
+        <ATCWaypoint id="S30">
             <ATCWaypointType>Airport</ATCWaypointType>
-            <WorldPosition>N44° 18' 54.45",W123° 1' 29.32",+000360.00</WorldPosition>
+            <WorldPosition>N44° 31' 52.10",W122° 55' 47.01",+000349.00</WorldPosition>
             <ICAO>
-                <ICAOIdent>9OR0</ICAOIdent>
+                <ICAOIdent>S30</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="OR78">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N44° 16' 14.01",W123° 3' 43.02",+001188.74</WorldPosition>
+            <ICAO>
+                <ICAOIdent>OR78</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
         <ATCWaypoint id="9OR0">
