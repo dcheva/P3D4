@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>NZCH to NZMC</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>7000</CruisingAlt>
+        <DepartureID>NZCH</DepartureID>
+        <DepartureLLA>S43° 29' 50.66",E172° 31' 20.20",+000123.00</DepartureLLA>
+        <DestinationID>NZMC</DestinationID>
+        <DestinationLLA>S43° 45' 54.00",E170° 8' 0.00",+002153.00</DestinationLLA>
+        <Descr>NZCH, NZMC</Descr>
+        <DeparturePosition>2</DeparturePosition>
+        <DepartureName>Christchurch Intl</DepartureName>
+        <DestinationName>Mount Cook</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="NZCH">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S43° 29' 21.99",E172° 32' 4.04",+000123.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>NZCH</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="CH">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>S43° 30' 14.80",E172° 30' 52.68",+000827.26</WorldPosition>
+            <ICAO>
+                <ICAORegion>NZ</ICAORegion>
+                <ICAOIdent>CH</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="IDUBU">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>S43° 39' 1.85",E172° 20' 40.91",+007000.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>NZ</ICAORegion>
+                <ICAOIdent>IDUBU</ICAOIdent>
+                <ICAOAirport>NZCH</ICAOAirport>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="NZMC">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S43° 45' 54.00",E170° 8' 0.00",+002153.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>NZMC</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
